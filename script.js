@@ -109,7 +109,7 @@ legend.onAdd = function (map) {
     grades = [0.1, 0.5, 1.0, 1.5, 2],
     labels = [],
     
-    itemMarginBottom= 5,
+    itemMarginBottom= 12,
     from, to;
   for (var i = 0; i < grades.length; i++) {
     from = grades[i];
