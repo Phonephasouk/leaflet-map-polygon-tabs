@@ -96,6 +96,8 @@ In this example, width = 9% for 10 tabs + cell borders */
     text-align: left;
     line-height: 18px;
     color: #555;
+    itemMarginTop: 5;
+    itemMarginBottom: 5;
 }
 .legend i {
   width: 18px;
