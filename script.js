@@ -29,11 +29,11 @@ $.getJSON("town-home-value-index.geojson", function (data) {
 // Edit range cutoffs and colors to match your data; see http://colorbrewer.org
 // Any values not listed in the ranges below displays as the last color
 function getColor(d) {
-  return d > 2.0 ? '#006d2c' :
-         d > 1.5 ? '#31a354' :
-         d > 1.0 ? '#74c476' :
-         d > 0.5 ? '#bae4b3' :
-         d > 0.1 ? '#edf8e9' :
+  return d > 2.0 ? '#7a0177' :
+         d > 1.5 ? '#c51b8a' :
+         d > 1.0 ? '#f768a1' :
+         d > 0.5 ? '#fbb4b9' :
+         d > 0.1 ? '#feebe2' :
                    'white' ;
 }
 
